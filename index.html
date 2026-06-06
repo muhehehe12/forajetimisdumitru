@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foraje Premium | Profesioniști în Foraje Puțuri și Piloni de Susținere</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="lang-ro">
+
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader-container">
+            <div class="loader-circle"></div>
+            <div class="loader-text">
+                <span class="ro">Se încarcă...</span>
+                <span class="en">Loading...</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Buton Plutitor WhatsApp (Conversie Înaltă) -->
+    <a href="https://wa.me/40733254321" class="whatsapp-sticky" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.4.01 12.008.01c3.202.001 6.212 1.244 8.477 3.508 2.266 2.264 3.507 5.275 3.507 8.481 0 6.656-5.338 12.001-11.957 12.001-2.005-.001-3.973-.502-5.717-1.454L0 24zm6.59-4.846c1.6.95 3.488 1.449 5.412 1.451 5.428 0 9.85-4.417 9.855-9.843.002-2.628-1.01-5.1-2.855-6.948a9.785 9.785 0 0 0-6.963-2.871C6.616 2.443 2.193 6.86 2.188 12.287c-.001 1.93.501 3.81 1.454 5.416l-.993 3.628 3.71-.974zm13.115-5.26c-.334-.167-1.977-.974-2.28-1.086-.304-.111-.524-.167-.744.167-.221.334-.855 1.086-1.048 1.309-.193.222-.386.25-.72.083-.334-.167-1.41-.52-2.686-1.66-1.002-.894-1.678-2.003-1.875-2.338-.197-.334-.021-.515.146-.681.15-.15.334-.389.501-.584.167-.195.222-.334.334-.556.111-.222.056-.417-.028-.584-.084-.167-.744-1.793-1.019-2.457-.267-.641-.561-.554-.744-.563-.192-.01-.413-.012-.634-.012-.221 0-.58.083-.884.417-.304.334-1.16 1.139-1.16 2.779 0 1.64 1.193 3.223 1.36 3.446.167.222 2.348 3.586 5.69 5.031.794.343 1.413.549 1.898.704.797.254 1.524.218 2.098.132.64-.095 1.977-.807 2.253-1.586.277-.779.277-1.446.194-1.586-.083-.14-.304-.222-.639-.389z"/>
+        </svg>
+    </a>
+
+    <!-- Header / Navigație -->
+    <header class="site-header">
+        <div class="header-container">
+            <a href="#" class="site-logo">FORAJE <span class="accent-color">PREMIUM</span></a>
+            
+            <nav class="nav-wrapper">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active"><span class="ro">Acasă</span><span class="en">Home</span></a></li>
+                    <li><a href="#experience" class="nav-link"><span class="ro">Experiență</span><span class="en">Experience</span></a></li>
+                    <li><a href="#services" class="nav-link"><span class="ro">Servicii</span><span class="en">Services</span></a></li>
+                    <li><a href="#contact" class="nav-link"><span class="ro">Contact</span><span class="en">Contact</span></a></li>
+                </ul>
+
+                <div class="language-switcher">
+                    <button id="lang-ro-btn" class="lang-btn active">RO</button>
+                    <button id="lang-en-btn" class="lang-btn">EN</button>
+                </div>
+            </nav>
+
+            <button class="hamburger" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section (Poza fundal, Text stânga transparent alb-albastru, Intrare animată) -->
+    <section id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="hero-container">
+            <div class="hero-content-box animate-fade-in-left">
+                <span class="hero-tagline">
+                    <span class="ro">Servicii Profesionale la Nivel Național</span>
+                    <span class="en">Professional Services Nationwide</span>
+                </span>
+                <h1 class="hero-title">
+                    <span class="ro">Foraje Puțuri de Înaltă Calitate</span>
+                    <span class="en">High Quality Well Drilling Solutions</span>
+                </h1>
+                <p class="hero-description">
+                    <span class="ro">Timpul ne-a demonstrat că un puț bine făcut, cu o apă limpede și cu debit constant, este cea mai bună carte de vizită pe care o putem lăsa oriunde în țară.</span>
+                    <span class="en">Time has proven that a well-crafted well, featuring crystal-clear water and a constant flow rate, is our finest business card anywhere in the country.</span>
+                </p>
+                <div class="hero-actions">
+                    <a href="tel:+40733254321" class="btn btn-primary">
+                        <span class="ro">Sună Acum: 0733 254 321</span>
+                        <span class="en">Call Now: +40 733 254 321</span>
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <span class="ro">Cere Ofertă</span>
+                        <span class="en">Get a Quote</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiune Cifre și Experiență (Scroll Animation Triggered) -->
+    <section id="experience" class="stats-section scroll-reveal">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">
+                        <span class="ro">Ani de Experiență în Domeniu</span>
+                        <span class="en">Years of Industry Experience</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">
+                        <span class="ro">Apă Limpede și Debit Constant</span>
+                        <span class="en">Clear Water & Constant Flow</span>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">Top</div>
+                    <div class="stat-label">
+                        <span class="ro">Foraje Manuale și Mecanizate</span>
+                        <span class="en">Manual & Automated Drilling</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiune Servicii (Cards, Modern Scroll Animation) -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title-wrapper scroll-reveal">
+                <h2 class="section-title">
+                    <span class="ro">Specializările Noastre</span>
+                    <span class="en">Our Specializations</span>
+                </h2>
+                <div class="accent-line"></div>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon-box">01</div>
+                    <h3 class="service-card-title">
+                        <span class="ro">Foraje Puțuri Apă</span>
+                        <span class="en">Water Well Drilling</span>
+                    </h3>
+                    <p class="service-card-desc">
+                        <span class="ro">Execuție profesională a puțurilor pentru alimentare cu apă potabilă sau irigații, cu izolare perfectă a straturilor de suprafață.</span>
+                        <span class="en">Professional execution of wells for drinking water or irrigation, featuring absolute surface layer isolation.</span>
+                    </p>
+                </div>
+
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon-box">02</div>
+                    <h3 class="service-card-title">
+                        <span class="ro">Foraje Manuale</span>
+                        <span class="en">Manual Well Drilling</span>
+                    </h3>
+                    <p class="service-card-desc">
+                        <span class="ro">Suntem o firmă de prestigiu care execută foraje manuale de cea mai bună calitate, ideale pentru spații înguste sau rezidențiale.</span>
+                        <span class="en">We are a prestigious company executing manual drilling of the highest quality, ideal for restricted or residential spaces.</span>
+                    </p>
+                </div>
+
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon-box">03</div>
+                    <h3 class="service-card-title">
+                        <span class="ro">Piloni de Susținere</span>
+                        <span class="en">Support Piling</span>
+                    </h3>
+                    <p class="service-card-desc">
+                        <span class="ro">Foraje pentru piloți de susținere și consolidări de teren structurale în toată țara, asigurând rezistența construcțiilor.</span>
+                        <span class="en">Drilling for foundation support piles and structural ground reinforcements nationwide, ensuring ultimate stability.</span>
+                    </p>
+                </div>
+
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon-box">04</div>
+                    <h3 class="service-card-title">
+                        <span class="ro">Denisipări și Curățări</span>
+                        <span class="en">Well Cleaning & Desanding</span>
+                    </h3>
+                    <p class="service-card-desc">
+                        <span class="ro">Eliminarea depunerilor de nisip și decolmatarea puțurilor vechi pentru restabilirea purității și a debitului inițial.</span>
+                        <span class="en">Removal of sand accumulations and desanding old wells to thoroughly restore initial purity and high flow rates.</span>
+                    </p>
+                </div>
+
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon-box">05</div>
+                    <h3 class="service-card-title">
+                        <span class="ro">Adânciri și Prelungiri</span>
+                        <span class="en">Well Deepening</span>
+                    </h3>
+                    <p class="service-card-desc">
+                        <span class="ro">Adâncirea puțurilor existente pentru a ajunge la straturi acvifere inferioare, mai bogate în debit stabil și curat.</span>
+                        <span class="en">Deepening existing wells to reach lower, more abundant water tables offering highly stable and clean water yields.</span>
+                    </p>
+                </div>
+
+                <div class="service-card scroll-reveal">
+                    <div class="service-icon-box">06</div>
+                    <h3 class="service-card-title">
+                        <span class="ro">Servicii de Durată</span>
+                        <span class="en">Long-lasting Durability</span>
+                    </h3>
+                    <p class="service-card-desc">
+                        <span class="ro">Toate lucrările noastre beneficiază de materiale de înaltă calitate și tehnici testate în peste 15 ani de activitate.</span>
+                        <span class="en">All operations utilize high-end materials and structural techniques refined over more than 15 years in the field.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiune Contact / Call-to-Action (Element de conversie maximă) -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info-box scroll-reveal">
+                    <h2>
+                        <span class="ro">Să începem proiectul dumneavoastră</span>
+                        <span class="en">Let's start your project</span>
+                    </h2>
+                    <p>
+                        <span class="ro">Garantăm lucrări executate la timp, materiale certificate și o comunicare transparentă pe tot parcursul execuției.</span>
+                        <span class="en">We guarantee on-time execution, certified materials, and absolute transparency throughout the entire process.</span>
+                    </p>
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <span class="detail-label"><span class="ro">Telefon Direct</span><span class="en">Direct Phone</span></span>
+                            <a href="tel:+40733254321" class="detail-value">0733 254 321</a>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label"><span class="ro">Acoperire</span><span class="en">Coverage</span></span>
+                            <span class="detail-value"><span class="ro">Timișoara și Toată România</span><span class="en">Timisoara & Nationwide Romania</span></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-box scroll-reveal">
+                    <form id="lead-form" onsubmit="event.preventDefault(); alert('Solicitare trimisă cu succes! / Request sent successfully!');">
+                        <div class="form-group">
+                            <label for="name"><span class="ro">Nume Complet</span><span class="en">Full Name</span></label>
+                            <input type="text" id="name" required placeholder="Ex. Dumitru Ion">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone"><span class="ro">Număr de Telefon</span><span class="en">Phone Number</span></label>
+                            <input type="tel" id="phone" required placeholder="Ex. 07xx xxx xxx">
+                        </div>
+                        <div class="form-group">
+                            <label for="service-type"><span class="ro">Serviciu Solicitat</span><span class="en">Requested Service</span></label>
+                            <select id="service-type">
+                                <option value="drilling-ro"><span class="ro">Foraje Puțuri Apă</span><span class="en">Water Well Drilling</span></option>
+                                <option value="manual-ro"><span class="ro">Foraje Manuale</span><span class="en">Manual Drilling</span></option>
+                                <option value="piling-ro"><span class="ro">Piloni de Susținere</span><span class="en">Support Piling</span></option>
+                                <option value="cleaning-ro"><span class="ro">Denisipări / Curățări</span><span class="en">Well Cleaning</span></option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <span class="ro">Trimite Solicitarea</span>
+                            <span class="en">Submit Request</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Foraje Premium Dumitru. <span class="ro">Toate drepturile rezervate. Servicii de calitate și durată.</span><span class="en">All rights reserved. Durable and quality services.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
